@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users = User.all
+    @users = User.active.alphabetical.paginate(:page => params[:page]).per_page(10)
   end
 
   # GET /users/1
@@ -69,6 +69,6 @@ class UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      params.require(:user).permit(:active, :email, :first_name, :last_name)
+      params.require(:user).permit(:active, :email, :first_name, :last_name, :phone)
     end
 end

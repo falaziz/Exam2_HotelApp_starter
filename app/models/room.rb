@@ -7,4 +7,5 @@ class Room < ApplicationRecord
         greater_than_or_equal_to: 100, less_than: 1000 }
     
     scope :booked, ->{where(booked: true)}
+    scope :numerical, -> { order('room_number DESC') }
 end

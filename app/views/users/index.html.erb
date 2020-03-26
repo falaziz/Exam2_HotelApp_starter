@@ -1,14 +1,18 @@
 <p id="notice"><%= notice %></p>
 
+<a href="/rooms"> Rooms </a>
+<a href="/bookings"> Bookings </a>
+
 <h1>Users</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Active</th>
-      <th>Email</th>
       <th>First name</th>
       <th>Last name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Active</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,10 +20,11 @@
   <tbody>
     <% @users.each do |user| %>
       <tr>
-        <td><%= user.active %></td>
-        <td><%= user.email %></td>
         <td><%= user.first_name %></td>
         <td><%= user.last_name %></td>
+        <td><%= user.phone %></td>
+        <td><%= user.email %></td>
+        <td><%= user.active %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>

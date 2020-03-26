@@ -4,7 +4,7 @@ class RoomsController < ApplicationController
   # GET /rooms
   # GET /rooms.json
   def index
-    @rooms = Room.all
+    @rooms = Room.numerical.paginate(:page => params[:page]).per_page(10)
   end
 
   # GET /rooms/1

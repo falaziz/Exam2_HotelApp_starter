@@ -3,8 +3,8 @@ FactoryBot.define do
   factory :user do
       first_name "Alex"
       last_name "Heimann"
-      phone "1231231234"
       email "test@example.com"
+      phone "1231231234"
       active true
   end
 

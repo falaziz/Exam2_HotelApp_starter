@@ -4,7 +4,7 @@ class BookingsController < ApplicationController
   # GET /bookings
   # GET /bookings.json
   def index
-    @bookings = Booking.all
+    @bookings = Booking.chronological.paginate(:page => params[:page]).per_page(10)
   end
 
   # GET /bookings/1
