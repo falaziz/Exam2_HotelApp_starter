@@ -25,9 +25,72 @@
           null
         ]
       },
+      "/home/ubuntu/Exam2/app/models/booking.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/ubuntu/Exam2/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/ubuntu/Exam2/app/models/room.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
       "/home/ubuntu/Exam2/app/models/user.rb": {
         "lines": [
-
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null
         ]
       },
       "/home/ubuntu/Exam2/app/controllers/rooms_controller.rb": {
@@ -278,33 +341,6 @@
         "branches": {
         }
       },
-      "/home/ubuntu/Exam2/app/models/room.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/ubuntu/Exam2/app/models/booking.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/ubuntu/Exam2/app/models/application_record.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/home/ubuntu/Exam2/app/mailers/application_mailer.rb": {
         "lines": [
           0,
@@ -344,6 +380,6 @@
         }
       }
     },
-    "timestamp": 1585236781
+    "timestamp": 1585238794
   }
 }
